@@ -164,6 +164,9 @@ target_link_libraries(once ${catkin_LIBRARIES})
 add_executable(throttle throttle.cpp)
 target_link_libraries(throttle ${catkin_LIBRARIES})
 
+add_executable(anon anon.cpp)
+target_link_libraries(anon ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

@@ -7,4 +7,19 @@ name="turtlesim"
 respawn="true"
 />
 
+<node
+pkg="turtlesim"
+type="turtle_teleop_key"
+name="teleop_key"
+required="true"
+launch-prefix="xterm -e"
+/>
+
+<node
+pkg="ros_tutorial"
+type="subpose"
+name="pose_subsriber"
+output="screen"
+/>
+
 </launch>

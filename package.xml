@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>agitr</name>
+  <name>ros_tutorial</name>
   <version>0.0.1</version>
   <description>Example from A Gentle Introduction to ROS</description>
 

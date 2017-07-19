@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(agitr)
+project(ros_tutorial)
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)
@@ -148,10 +148,15 @@ ${catkin_INCLUDE_DIRS}
 
 add_executable(hello hello.cpp)
 target_link_libraries(hello ${catkin_LIBRARIES})
+
 add_executable(pubvel pubvel.cpp)
 target_link_libraries(pubvel ${catkin_LIBRARIES})
+
 add_executable(subpose subpose.cpp)
 target_link_libraries(subpose ${catkin_LIBRARIES})
+
+add_executable(count count.cpp)
+target_link_libraries(count ${catkin_LIBRARIES})
 
 #############
 ## Install ##

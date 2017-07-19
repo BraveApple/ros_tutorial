@@ -167,6 +167,9 @@ target_link_libraries(throttle ${catkin_LIBRARIES})
 add_executable(anon anon.cpp)
 target_link_libraries(anon ${catkin_LIBRARIES})
 
+add_executable(reverse_cmd_vel reverse_cmd_vel.cpp)
+target_link_libraries(reverse_cmd_vel ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############

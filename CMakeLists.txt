@@ -158,6 +158,12 @@ target_link_libraries(subpose ${catkin_LIBRARIES})
 add_executable(count count.cpp)
 target_link_libraries(count ${catkin_LIBRARIES})
 
+add_executable(once once.cpp)
+target_link_libraries(once ${catkin_LIBRARIES})
+
+add_executable(throttle throttle.cpp)
+target_link_libraries(throttle ${catkin_LIBRARIES})
+
 #############
 ## Install ##
 #############
